@@ -1,0 +1,263 @@
+<div className="content-page">
+
+
+    <div className="navbar-custom" style="    margin-left: -10px;
+                background-color: #ffffff;
+                width: 102%;">
+        <div className="topbar" style="background-color: #ffffff;     margin-top: -1%;">
+            <div className="topbar-menu d-flex align-items-center gap-1">
+                <div className="logo-box">
+
+                </div>
+
+                <div className="dropdown d-none d-xl-block">
+                    <a className="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="false" aria-expanded="false"
+                        style="font-weight: bold; font-size: small; color: rgb(0 0 0); border-radius: 6px; box-shadow: 0px 1px 7px rgba(0,0,0,0.25); top: 32px; height: 30px;;">
+                        <i className="fa-solid fa-sliders fa-xs" style="margin-right: 12px;
+                                        margin-top: 3px;"></i>
+                        Display
+                    </a>
+                    <div className="dropdown-menu" style="width: 286px; ">
+                        <a href="javascript:void(0);" className="dropdown-item" style="margin-top: 4%;">
+                            <span>Grouping</span>
+                            <select className="dropdown-item" style="    padding: 0px 3px;
+                                            border: 1px solid;
+                                            transform: translate(129px, -27px);
+                                            background: #fff;
+                                            width: 100px;
+                                            height: 26px;
+                                            font-weight: bold;
+                                            border-radius: 7px;
+                                            margin-top: 5%;">
+                                <option value="Status" selected>Status</option>
+                                <option value="test">test</option>
+                                <option value="test">test</option>
+                            </select>
+                        </a>
+                        <a href="javascript:void(0);" className="dropdown-item" style="    margin-top: -9%;">
+                            <span>Ordering</span>
+                            <select className="dropdown-item" style="    padding: 0px 3px;
+                                            border: 1px solid;
+                                            transform: translate(129px, -27px);
+                                            background: #fff;
+                                            width: 100px;
+                                            height: 26px;
+                                            font-weight: bold;
+                                            border-radius: 7px;
+                                            margin-top: 2%;">
+                                <option value="Priority" selected>Priority</option>
+                                <option value="test">test</option>
+                                <option value="test">test</option>
+                            </select>
+                        </a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div className="content" style="margin-top: 5%;">
+
+        <div className="container-fluid">
+
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <div className="card-body">
+                        <div className="dropdown float-end" style="transform: rotate(270deg); left: -2%;">
+
+                        </div>
+
+                        <i className="fa-solid fa-clock fa-xl"></i>
+                        <h4 className="header-title" style="position: static;
+                                       top: 15.8%;
+                                    font-weight: bold;
+                                    font-size: x-large;
+                                    margin-left: 6%;
+                                    margin-top: -4.5%;">Not Importent</h4>
+                        <p className="sub-header">
+                        </p>
+
+                        <ul className="sortable-list tasklist list-unstyled" id="upcoming">
+
+                            <li id="task1" style="border-radius: 9px; background-color: #ffffff;">
+                                <span className="badge bg-soft-danger text-danger float-end">High</span>
+                                <h5 className="mt-0"><a href="javascript: void(0);" className="text-dark">iOS App
+                                        home page</a></h5>
+                                <div className="form-check float-end ps-0">
+                                    <input className="form-check-input" type="checkbox" value=""></input>
+                                </div>
+                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                <div className="clearfix"></div>
+                                <div className="row">
+                                    <div className="col">
+                                        <p className="font-13 mt-2 mb-0"><i className="mdi mdi-calendar"></i> Oct
+                                            16, 2018</p>
+                                    </div>
+                                    <div className="col-auto">
+                                        <div className="text-end">
+                                            <a href="javascript: void(0);" className="text-muted">
+                                                <img src="assets/images/users/user-1.jpg" alt="task-user"
+                                                    className="avatar-sm img-thumbnail rounded-circle" />
+                                            </a>
+                                            <a href="javascript: void(0);" className="text-muted">
+                                                <img src="assets/images/users/user-3.jpg" alt="task-user"
+                                                    className="avatar-sm img-thumbnail rounded-circle" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div className="col-lg-4">
+                    <div className="card-body">
+                        <div className="dropdown float-end" style="transform: rotate(270deg);">
+                            <a href="#" className="dropdown-toggle arrow-none" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i className="mdi mdi-dots-vertical m-0 text-muted h3"></i>
+                            </a>
+                            <div className="dropdown-menu dropdown-menu-end">
+                                <a className="dropdown-item" href="#">Edit</a>
+                                <a className="dropdown-item" href="#">Delete</a>
+                                <a className="dropdown-item" href="#">Add Members</a>
+                                <a className="dropdown-item" href="#">Add Due Date</a>
+                            </div>
+                        </div>
+                        <i className="fa-solid fa-clock fa-xl"></i>
+                        <h4 className="header-title" style="position: static;
+                                       top: 15.8%;
+                                        font-weight: bold;
+                                        font-size: x-large;
+                                        margin-left: 6%;
+                                        margin-top: -4.5%;">In Progress</h4>
+                        <p className="sub-header">
+                        </p>
+
+                        <ul className="sortable-list tasklist list-unstyled" id="inprogress">
+                            <li id="task6" style="border-radius: 9px; background-color: #ffffff; ">
+                                <span className=" badge bg-soft-warning text-warning float-end">Medium</span>
+                                <h5 className="mt-0"><a href="javascript: void(0);" className="text-dark">Enable
+                                        analytics tracking</a></h5>
+                                <div className="form-check float-end ps-0">
+                                    <input className="form-check-input" type="checkbox" value=""></input>
+                                </div>
+                                <p>It has roots in a piece of classical Latin literature from 45 BC.</p>
+                                <div className="clearfix"></div>
+                                <div className="row">
+                                    <div className="col">
+                                        <p className="font-13 mt-2 mb-0"><i className="mdi mdi-calendar"></i> Sep
+                                            18, 2018</p>
+                                    </div>
+                                    <div className="col-auto">
+                                        <div className="text-end">
+                                            <a href="javascript: void(0);" className="text-muted">
+                                                <img src="assets/images/users/user-8.jpg" alt="task-user"
+                                                    className="avatar-sm img-thumbnail rounded-circle" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div className="col-lg-4">
+                    <div className="card-body">
+                        <div className="dropdown float-end" style="transform: rotate(270deg);">
+                            <a href="#" className="dropdown-toggle arrow-none" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i className="mdi mdi-dots-vertical m-0 text-muted h3"></i>
+                            </a>
+                            <div className="dropdown-menu dropdown-menu-end">
+                                <a className="dropdown-item" href="#">Edit</a>
+                                <a className="dropdown-item" href="#">Delete</a>
+                                <a className="dropdown-item" href="#">Add Members</a>
+                                <a className="dropdown-item" href="#">Add Due Date</a>
+                            </div>
+                        </div>
+                        <i className="fa-solid fa-circle-check fa-xl"></i>
+                        <h4 className="header-title" style="position: static;
+                                        top: 15.4%;
+                                        font-weight: bold;
+                                        font-size: x-large;
+                                        margin-left: 6%;
+                                        margin-top: -4.5%;">Completed</h4>
+                        <p className="sub-header">
+                        </p>
+
+                        <ul className="sortable-list tasklist list-unstyled" id="completed">
+                            <li className="task-warning" id="task10"
+                                style="border-radius: 9px; background-color: #ffffff;">
+                                <span className=" badge bg-soft-success text-success float-end">Low</span>
+                                <h5 className="mt-0"><a href="javascript: void(0);" className="text-dark">Brand logo
+                                        design</a></h5>
+                                <div className="form-check float-end ps-0">
+                                    <input className="form-check-input" type="checkbox" value=""></input>
+                                </div>
+                                <p>Various versions have evolved over the years, sometimes by accident.</p>
+                                <div className="clearfix"></div>
+                                <div className="row">
+                                    <div className="col">
+                                        <p className="font-13 mt-2 mb-0"><i className="mdi mdi-calendar"></i> Jun
+                                            13, 2018</p>
+                                    </div>
+                                    <div className="col-auto">
+                                        <div className="text-end">
+                                            <a href="javascript: void(0);" className="text-muted">
+                                                <img src="assets/images/users/user-3.jpg" alt="task-user"
+                                                    className="avatar-sm img-thumbnail rounded-circle" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+<div className="offcanvas offcanvas-end right-bar" tabIndex="-1" id="theme-settings-offcanvas">
+    <div className="d-flex align-items-center w-100 p-0 offcanvas-header">
+        <ul className="nav nav-tabs nav-bordered nav-justified w-100" role="tablist">
+            <li className="nav-item">
+                <a className="nav-link py-2" data-bs-toggle="tab" href="#chat-tab" role="tab">
+                    <i className="mdi mdi-message-text d-block font-22 my-1"></i>
+                </a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link py-2" data-bs-toggle="tab" href="#tasks-tab" role="tab">
+                    <i className="mdi mdi-format-list-checkbox d-block font-22 my-1"></i>
+                </a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link py-2 active" data-bs-toggle="tab" href="#settings-tab" role="tab">
+                    <i className="mdi mdi-cog-outline d-block font-22 my-1"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
